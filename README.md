@@ -9,18 +9,10 @@ Backend: Django
 Database: SQL
 
 
-# Pre-Requisites
-$pip install Django
-
-$django-admin startproject webapp
-
-$python manage.py startapp portfolio
-
-
 #Execution Flow
 * Clone the project:
 ```
-$ https://github.com/krishnamaram2025/WebApp.git
+$ https://github.com/devops2023q2/webapp.git
 ```
 
 * Install required packages:
@@ -33,28 +25,16 @@ $ cd WebApp && pip3 install -r requirements.txt
 $ python3 manage.py makemigrations
 $ python3 manage.py migrate
 ```
-* Get admin access:
-```
-$ python3 manage.py createsuperuser (enter username, email, password)
-```
 
 * Run server:
 ```
-$ python manage.py runserver
+$ python manage.py runserver => to run locally
 $gunicorn main.wsgi --bind 0.0.0.0:8000
 ```
 
 * Testing
-http://127.0.0.1:8000
-http://127.0.0.1:8000/admin
+http://127.0.0.1:8000 => local
+http://<Public_ip>:8000
 
-
-
-# References
-https://github.com/Jebaseelanravi/Portfolio-website-using-django
-
-https://github.com/FahadulShadhin/crudapp.git
-
-https://github.com/coluck/django-directory-template
 
 
