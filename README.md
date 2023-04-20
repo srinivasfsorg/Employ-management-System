@@ -12,12 +12,12 @@ Database: SQL
 #Execution Flow
 * Clone the project:
 ```
-$ https://github.com/devops2023q2/webapp.git
+$ git clone https://github.com/devops2023q2/webapp.git
 ```
 
 * Install required packages:
 ```
-$ cd WebApp && pip3 install -r requirements.txt
+$ cd webapp && pip3 install -r requirements.txt
 ```
 
 * Make migrations to database:
