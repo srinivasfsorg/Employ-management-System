@@ -17,7 +17,7 @@ $ git clone https://github.com/srinivasfsorg/emp-ms-django.git
 
 * Install required packages:
 ```
-$ cd webapp && 
+$ cd  repo directory && 
   $ pip3 install -r requirements.txt
 ```
 
