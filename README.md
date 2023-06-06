@@ -12,7 +12,7 @@ Database: SQL
 #Execution Flow
 * Clone the project:
 ```
-$ git clone 
+$ git clone https://github.com/srinivasfsorg/emp-ms-django.git
 ```
 
 * Install required packages:
